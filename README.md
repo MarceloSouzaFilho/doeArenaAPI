@@ -59,3 +59,4 @@ Sinta-se à vontade para abrir issues e pull requests para melhorias no projeto.
 Licença
 
 Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
