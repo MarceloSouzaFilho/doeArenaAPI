@@ -40,13 +40,16 @@ A API fornece endpoints para acessar os dados extraídos do site.
 
 1. Obter informações de doações
 
-Endpoint: GET /doacoes
+Endpoint: GET /getDoeArena
 
 Resposta:
 
 {
-    "total_arrecadado": "R$ 100.000,00",
-    "percentual_meta": "25%"
+    arrecadadoAtual: string,
+    dataAtualizacao: string,
+    dataProximaAtualizacao: string,
+    meta: string,
+    quantoFalta: longToMoneystring
 }
 
 Contribuição
@@ -56,3 +59,4 @@ Sinta-se à vontade para abrir issues e pull requests para melhorias no projeto.
 Licença
 
 Este projeto é licenciado sob a MIT License. Veja o arquivo LICENSE para mais detalhes.
+
