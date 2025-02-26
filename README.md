@@ -24,14 +24,20 @@ A API fornece endpoints para acessar os dados extraídos do site.
 
 📌 1. Obter informações de doações
 Endpoint: GET /getDoeArena
+
+
 Resposta:
 json
 {
+
+
     "arrecadadoAtual": "R$ 1.000.000,00",
     "dataAtualizacao": "2025-02-25T12:00:00Z",
     "dataProximaAtualizacao": "2025-02-25T14:00:00Z",
     "meta": "R$ 2.000.000,00",
     "quantoFalta": "R$ 1.000.000,00"
+
+    
 }
 
 ## 🤝 Contribuição
